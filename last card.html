@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lastcard</title>
+    <style>
+      .lastcard {
+        width: 280px;
+        height: 293px;
+        background: #ffffff;
+        box-shadow: 4px 4px 25px rgba(0, 0, 0, 0.1);
+        border-radius: 25px;
+        border: 2px solid black;
+      }
+      .card-image {
+        background: url("/dist/assets/lastcard.jpg"), #c4c4c4;
+        border-radius: 25px;
+        height: 200px;
+        width: 260px;
+        position: absolute;
+        top: 20px;
+        left: 20px;
+      }
+      .star-card {
+        position: absolute;
+        width: 55px;
+        height: 20px;
+        left: 207px;
+        top: 34px;
+
+        /* White-primary */
+
+        background: #ffffff;
+        border-radius: 25px;
+      }
+      .star-image{
+        background: url('/dist/assets/Star.jpg');
+        height: 17px;
+        width: 17px;
+        position: absolute;
+        left: 7px;
+        top: 2px;
+
+      }
+    </style>
+  </head>
+  <body>
+    <div class="lastcard">
+      <div class="card-image"></div>
+      <div class="star-card">
+        <div class="star-image"></div>
+      </div>
+    </div>
+  </body>
+</html>

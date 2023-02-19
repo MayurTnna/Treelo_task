@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>onesection</title>
+    <style>
+      .flight-hotel {
+        position: absolute;
+        width: 279px;
+        height: 100px;
+
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        /* White-primary */
+
+        background: #ffffff;
+        border: 2px solid black;
+        border-radius: 25px 25px 0px 0px;
+      }
+      .flight {
+        width: 121px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 66px;
+        /* left: 140px;
+        top: 10px; */
+
+        background: rgba(62, 134, 245, 0.2);
+        border-radius: 25px;
+      }
+      .hotel {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="flight-hotel">
+      <div class="flight">
+        <img
+          src="./dist/assets/Airplane Mode On (1).svg"
+          style="transform: rotate(-45deg)"
+        />
+        <p class="text-bold">Flight</p>
+      </div>
+      <div class="hotel">
+        <img src="./dist/assets/Hotel Star.svg" />
+        <p class="text-bold">Hotel</p>
+      </div>
+    </div>
+  </body>
+</html>
